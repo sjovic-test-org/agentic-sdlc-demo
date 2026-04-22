@@ -2,6 +2,8 @@
 on:
   issues:
     types: [opened]
+  bots:
+    - datadog-official
 permissions:
   contents: read
   actions: read
