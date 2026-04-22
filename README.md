@@ -100,7 +100,7 @@ Executes the Jest test suite for the service layer.
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone <repository-url> # Replace with the repository's GitHub clone URL
    cd agentic-sdlc-demo
    ```
 
