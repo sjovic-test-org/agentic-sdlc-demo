@@ -51,7 +51,7 @@ agentic-sdlc-demo/
 
 ### Services
 
-- **taskService** - Manages in-memory task storage with CRUD operations
+- **taskService** - Manages in-memory task storage for listing, creating, and completing tasks
 - **healthService** - Monitors application health and provides metrics
 
 ## Available Commands
