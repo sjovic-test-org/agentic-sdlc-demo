@@ -14,7 +14,7 @@ tools:
 safe-outputs:
   update-project:
     github-token: ${{ secrets.GH_AW_WRITE_PROJECT_TOKEN }}
-    project: https://github.com/orgs/my-mona-org/projects/1
+    project: https://github.com/orgs/sjovic-test-org/projects/2/
     max: 1
 ---
 
