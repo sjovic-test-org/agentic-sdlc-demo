@@ -86,7 +86,7 @@ Runs the built application in production mode. Make sure to run `npm run build` 
 npm test
 ```
 
-Executes the Jest test suite for all services and components.
+Executes the Jest test suite for the service layer.
 
 ## Getting Started
 
