@@ -1,16 +1,20 @@
 # Agentic SDLC Demo
 
-A demo project for testing the Agentic Software Development Life Cycle (SDLC) workflow. This is a simple task management application built with Next.js, TypeScript, and Jest to demonstrate AI-assisted development practices.
+[![Next.js](https://img.shields.io/badge/Next.js-15.5-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![Jest](https://img.shields.io/badge/Jest-29.7-C21325?style=flat-square&logo=jest)](https://jestjs.io/)
+
+A demo project for testing the **Agentic Software Development Life Cycle (SDLC)** workflow. This is a simple task management application built with Next.js, TypeScript, and Jest to demonstrate AI-assisted development practices.
 
 ## Overview
 
-This project, **TaskPulse**, is a minimal task management system that showcases:
+This project, **TaskPulse**, is a minimal yet production-ready task management system that showcases:
 
-- RESTful API endpoints
-- Service layer architecture
-- Unit testing with Jest
-- TypeScript type safety
-- Next.js App Router
+- 🚀 RESTful API endpoints with Next.js App Router
+- 🏗️ Clean service layer architecture
+- ✅ Comprehensive unit testing with Jest
+- 🔒 TypeScript type safety and strict mode
+- ⚡ Fast development with hot module replacement
 
 ## Project Structure
 
@@ -86,22 +90,36 @@ Executes the Jest test suite for all services and components.
 
 ## Getting Started
 
-1. **Install dependencies:**
+### Prerequisites
+
+- Node.js 20 or higher
+- npm or yarn package manager
+
+### Installation & Setup
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone <repository-url>
+   cd agentic-sdlc-demo
+   ```
+
+2. **Install dependencies:**
 
    ```bash
    npm install
    ```
 
-2. **Run the development server:**
+3. **Run the development server:**
 
    ```bash
    npm run dev
    ```
 
-3. **Open your browser:**
+4. **Open your browser:**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-4. **Test the API:**
+5. **Test the API:**
 
    ```bash
    # Health check
@@ -133,8 +151,16 @@ Executes the Jest test suite for all services and components.
 
 This project serves as a demonstration environment for testing and validating Agentic SDLC workflows, including:
 
-- AI-assisted code generation
-- Automated testing practices
-- API development patterns
-- Service layer architecture
-- TypeScript best practices
+- 🤖 AI-assisted code generation and refactoring
+- 🧪 Automated testing practices and TDD workflows
+- 📡 RESTful API development patterns
+- 🏛️ Service layer architecture and separation of concerns
+- 📘 TypeScript best practices and type safety
+
+## Contributing
+
+This is a demo project for testing purposes. Feel free to fork and experiment with different SDLC approaches and AI-assisted development workflows.
+
+## License
+
+This project is for demonstration purposes.
