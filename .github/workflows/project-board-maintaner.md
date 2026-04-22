@@ -22,7 +22,21 @@ safe-outputs:
 
 Analyze each new or updated issue and decide whether it should be added to the project board.
 
-Add the issue to the board only if it represents actionable engineering work:
+## Special Case: Datadog Production Issues
+
+**First, check if the issue author is `app/datadog-official`:**
+
+If YES, this is a production bug from monitoring and requires immediate attention:
+
+- **Always** add to the project board
+- Set `Priority = High`
+- Set `Status = Proposed`
+- Add labels: `production-bug`, `datadog`
+- These issues bypass the normal triage criteria below
+
+## Standard Issue Triage
+
+For all other issues, add to the board only if it represents actionable engineering work:
 
 - bug report
 - feature request
