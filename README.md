@@ -138,7 +138,3 @@ This project serves as a demonstration environment for testing and validating Ag
 - API development patterns
 - Service layer architecture
 - TypeScript best practices
-
-## License
-
-This is a demo project for testing purposes.
