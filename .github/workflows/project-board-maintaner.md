@@ -20,10 +20,31 @@ safe-outputs:
 
 # Intelligent Issue Triage
 
-Analyze each new issue in this repository and decide whether it belongs on the project board.
+Analyze each new or updated issue and decide whether it should be added to the project board.
 
-Set structured fields only from allowed values:
+Add the issue to the board only if it represents actionable engineering work:
+
+- bug report
+- feature request
+- documentation task
+- maintenance or refactoring task
+
+Do not add the issue to the board if it is:
+
+- a question or support request
+- spam
+- a duplicate
+- missing enough information to identify actionable work
+
+When information is incomplete:
+
+- prefer `Status = Needs Triage`
+- avoid assigning `High` priority unless the issue clearly describes a blocker, production outage, or severe user impact
+
+Set fields only from allowed values:
 
 - Status: Needs Triage | Proposed | In Progress | Blocked
 - Priority: Low | Medium | High
 - Team: Platform | Docs | Product
+
+Base every decision strictly on the issue title and body. Do not infer missing facts.
