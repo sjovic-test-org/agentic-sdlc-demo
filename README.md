@@ -163,4 +163,4 @@ This is a demo project for testing purposes. Feel free to fork and experiment wi
 
 ## License
 
-This project is for demonstration purposes.
+No license is granted for this project. All rights reserved.
