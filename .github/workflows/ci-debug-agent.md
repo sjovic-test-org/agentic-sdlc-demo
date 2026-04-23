@@ -18,7 +18,7 @@ tools:
     toolsets: [default]
 
 safe-outputs:
-  add-comment:
+  add_comment:
     max: 3
 
 network:
