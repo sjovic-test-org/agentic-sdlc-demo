@@ -102,27 +102,26 @@ Post a comment on the associated pull request (or the commit if no PR exists) wi
 
 [Relevant error messages and stack traces]
 
-````
-
+````markdown
 ### 💡 Suggested Fix
 
 [Actionable recommendations with file/line references]
 
 **Example:**
+
 ```[language]
 // In src/example.ts:42
 // Change:
 const result = await getData()
 // To:
 const result = await getData().catch(err => handleError(err))
+```
 ````
 
 ### 🔗 References
 
 - [Link to failed check run]
 - [Link to relevant files]
-
-```
 
 ## Important Guidelines
 
@@ -139,10 +138,10 @@ const result = await getData().catch(err => handleError(err))
 ## When NOT to Comment
 
 Skip commenting if:
+
 - The check run is not associated with a pull request and there's no clear commit context
 - Logs are completely unavailable or empty
 - The failure is in a workflow you cannot analyze (e.g., external service failures)
 - This is a duplicate analysis (another workflow already commented on this failure)
 
 In these cases, exit gracefully without posting a comment.
-```
